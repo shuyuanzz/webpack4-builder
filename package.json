@@ -6,7 +6,7 @@
   "scripts": {
     "test": "istanbul cover ./node_modules/.bin/_mocha",
     "lint": "eslint ./lib --fix",
-    "commit-msg": "validate-commit-msg",
+    "commitmsg": "validate-commit-msg",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "keywords": [],
